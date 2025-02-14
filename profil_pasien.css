@@ -1,0 +1,307 @@
+body{
+    font-family: 'Poppins';
+}
+.sidebar{
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: white;
+    height: 950px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 40px;
+    box-shadow: 1px 1px 20px gray;
+    
+}
+
+
+.admin{
+    display: flex;
+    flex-direction: row;
+}
+
+.admin>h3{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.admin>img{
+    width: 100px;
+    height: 100px;
+}
+
+.dashboard>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-konsul>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.list-appoint>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-pasien>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.rekam-medis>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-obat>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.Administrator>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.logout>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.nav-bar{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 1300px;
+    height: 50px;
+    
+    
+}
+
+.coloum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rs{
+    margin-top: -20px;
+    font-size: 28px;
+}
+.rs>h3{
+    
+    color: #4200FF;
+    margin-bottom: -20px;
+}
+
+.content-top{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 100%;
+    height: 50px;
+}
+
+.nav>input{
+    padding-top: -10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+.nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav>a{
+
+    padding-left: 20px;
+}
+
+.bagian{
+    margin-top: -30px;
+}
+.bagian>h3{
+    font-size: 40px;
+}
+
+.tabel{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 1250px;
+    height: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 30px;
+}
+
+.nav-mid{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 1150px;
+    height: 50px;
+    
+
+}
+
+.bagian-cek{
+    display: flex;
+    
+}
+
+.cek-rekam-medis>a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4200FF;
+    text-decoration: none;
+}
+
+.cek-resep>a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #2B3674;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.data-diri{
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 30px;
+    width: 950px;
+    height: 218px;
+    box-shadow: 1px 1px 20px rgb(228, 228, 228);
+    border-radius: 40px;
+}
+
+.bagian1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.tabel-atas{
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.tabel-atas>table>thead>tr>th{
+    text-align: left;
+}
+table>tbody>tr>td{
+    text-align: left;
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tabel-bawah{
+    width: 600px;
+    padding-bottom: 5px;
+}
+
+.tabel-bawah>table>thead>tr>th{
+    text-align: left;
+}
+
+.bagian2{
+    margin-top: 30px;
+    padding-left: 30px;
+    width: 700px;
+    height: 320px;
+    box-shadow: 1px 1px 20px rgb(228, 228, 228);
+    border-radius: 40px;
+    display: flex;
+}
+
+.kunjungan{
+    text-align: left;
+    font-size: 15px;
+}
+
+.tabel-kunjungan{
+    padding-left: 30px;
+    width: 700px;
+    height: 220px;
+    display: flex;
+}
+
+
+
+.laporan>img{
+    margin-left: 33px;
+    box-shadow: 1px 1px 20px rgb(228, 228, 228);
+    border-radius: 40px;
+    width: 450px;
+}
+
+.kanan-atas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kanan-atas>input{
+    border-radius: 40px;
+    padding-left: 20px;
+}

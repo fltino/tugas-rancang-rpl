@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+}
+
+.row {
+   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.foto{
+    width: 950px;
+    
+}
+
+.kanan{
+    margin-top: 200px;
+    margin-left: 250px;
+ 
+}
+
+.Selamat>h1{
+    font-size: 50px;
+}
+
+.Selamat>p{
+    margin-top: -35px;
+    font-size: 20px;
+}
+
+.email{
+    font-size: 20px;
+}
+
+.email>input{
+    display: flex;
+    margin-top: -20px;
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px
+}
+
+
+.password{
+    font-size: 20px;
+}
+.password>input{
+    display: flex;
+    margin-top: -20px;
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px
+    
+}
+
+.login-btn{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+    display: inline-block;
+    padding: 15px 233px;
+    border-radius: 10px;
+    background-color:#4200FF;
+
+}
+
+.google-btn{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+
+    display: inline-block;
+    padding: 15px 156px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #C5C5C5;
+    
+}
+
+.google-btn>img{
+    width: 15px;
+}
+
+.lupa-pass>a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-left: 180px;
+    font-size: 20px;
+}
+
+.daftar{
+    padding-left: 120px;
+}
+
+.daftar>p{
+    color: #C5C5C5;
+}
+
+.daftar>p>a{
+    text-decoration: none;
+    color: black;
+}

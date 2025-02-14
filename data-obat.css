@@ -1,0 +1,335 @@
+body{
+    font-family: 'Poppins';
+}
+.sidebar{
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: white;
+    height: 950px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    padding: 40px;
+    box-shadow: 1px 1px 20px gray;
+    
+}
+
+
+.admin{
+    display: flex;
+    flex-direction: row;
+}
+
+.admin>h3{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.admin>img{
+    width: 100px;
+    height: 100px;
+}
+
+.dashboard>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-konsul>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.list-appoint>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-pasien>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.rekam-medis>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.data-obat>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.Administrator>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.logout>a{
+    text-decoration: none;
+    color: #C9C9C9;
+    padding-left: 50px;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.nav-bar{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 1300px;
+    height: 50px;
+    
+    
+}
+
+.coloum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rs{
+    margin-top: -20px;
+    font-size: 28px;
+}
+.rs>h3{
+    
+    color: #4200FF;
+    margin-bottom: -20px;
+}
+
+.content-top{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 100%;
+    height: 50px;
+}
+
+.nav>input{
+    padding-top: -10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+.nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav>a{
+
+    padding-left: 20px;
+}
+
+.bagian{
+    margin-top: -30px;
+}
+.bagian>h3{
+    font-size: 40px;
+}
+
+.tabel{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 1250px;
+    height: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 30px;
+}
+
+table>tbody>tr>td{
+    color: #4200FF;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: #f1f1f1;
+    width: 1250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Tombol{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.putih>a{
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration: none;  
+    color: black;
+}
+
+
+.biru>a{
+    text-decoration: none;
+    background-color: #4400FF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 100px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.Aksi{
+    align-items: center;
+    display: flex;
+}
+
+
+.Aksi1{
+    margin-left: 170px;
+}
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+.popup-content{
+    height: 343px;
+    width: 692px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.popup-content>h2{
+    font-size:40px;
+    padding-bottom: 40px;
+}
+
+.pilihan{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Ya{
+    margin-right: 15px;
+    
+}
+
+.Ya>a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #4200FF;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.Kembali{
+    margin-left: 15px;
+}
+
+.Kembali>a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: #4200FF;
+    border-style: solid;
+}
+
+.popup2{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+}
+
+.popup2-content{
+    height: 343px;
+    width: 692px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.popup2-content>h2{
+    padding-top: 20px;
+    font-size:40px;
+    padding-bottom: 20px;
+}
